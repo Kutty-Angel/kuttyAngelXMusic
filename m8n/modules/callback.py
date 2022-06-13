@@ -16,7 +16,7 @@ async def cbhome(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""Hello [👋]({START_PIC}) My name is **{BOT_NAME}**
 
-I'm most complete voice chat music player for playing high quality and unbreakable music in your groups voice chat with some useful features.
+I'm Squirrel music player for playing high quality and unbreakable music in your groups voice chat with some useful features.
 
 Use inline buttons given below to know more about me !!""",
         reply_markup=InlineKeyboardMarkup(
@@ -33,7 +33,7 @@ Use inline buttons given below to know more about me !!""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "✚ Click here to Summon Me", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "✚ Add Me to your Group ✚", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ]
                 
            ]
@@ -184,7 +184,7 @@ Click on the given inline buttons to know all the information about the Bot !!""
                     InlineKeyboardButton("👤 Owner", url=f"https://t.me/{OWNER_USERNAME}"),
                     InlineKeyboardButton("🎸 Assistant", url=f"https://t.me/{ASSUSERNAME}")
                 ],[
-                    InlineKeyboardButton("🤖 Source Code", url="https://github.com/UnknownMortal/M8N-Music-Bot")
+                    InlineKeyboardButton("🤖 Developer", url="https://t.me/ONLY_DUSKY")
                 ],[
                     InlineKeyboardButton("⬅️ Back", callback_data="cbhome")
                 ],
