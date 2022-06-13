@@ -35,7 +35,7 @@ Use inline buttons given below to know more about me !!""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "✚ Click here to Summon Me", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "✚ Add Me to your Group ✚", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ]
            ]
         ),
