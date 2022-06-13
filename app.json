@@ -3,7 +3,7 @@
     "description": "Powerful telegram's music player. Run on python3 !!",
     "logo": "https://telegra.ph/file/da770ced8ae24663f49b8.jpg",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/Kutty-Angel/KuttyAngelXMusic",
+    "repository": "https://github.com/Kutty-Angel/KuttyAngelXMusic.git",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
