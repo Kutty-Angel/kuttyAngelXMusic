@@ -16,9 +16,9 @@ from m8n.config import BOT_NAME
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_PIC}",
-        caption=f"""Hello 👋 My name is **{BOT_NAME}**
+        caption=f"""Hello 👋 Im **{BOT_NAME}**
 
-I'm most complete voice chat music player for playing high quality and unbreakable music in your groups voice chat with some useful features.
+I'm Squirrell music player for playing high quality and unbreakable music in your groups voice chat with some useful features.
 
 Use inline buttons given below to know more about me !!""",
     reply_markup=InlineKeyboardMarkup(
