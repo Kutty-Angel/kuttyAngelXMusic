@@ -42,8 +42,8 @@ async def load_start():
             pass
     await app.send_message(OWNER_ID, "**M8N Music Bot Started Successfully !!**")
    # Copyrighted Area
-    await client.join_chat("M8N_SUPPORT")
-    await client.join_chat("M8N_OFFICIAL")
+    await client.join_chat("DuskyBotZSupport")
+    await client.join_chat("DuskyBotZUpdates")
     print("[INFO]: STARTED")
     
 
